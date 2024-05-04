@@ -28,7 +28,7 @@ public class Person {
 
     public void setAge(int age) throws InvalidAgeException {
         if (age < 0 || age > 125) {
-            throw new InvalidAgeException("Invalid age: " + age);
+            throw new InvalidAgeException("zly wiek: " + age);
         }
         this.age = age;
     }
