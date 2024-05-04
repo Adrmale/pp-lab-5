@@ -8,7 +8,7 @@ public class Main {
             System.out.println("Name: " + person.getName());
             System.out.println("Age: " + person.getAge());
         } catch (InvalidAgeException e) {
-            System.out.println("Invalid age: " + e.getMessage());
+            System.out.println("zly wiek: " + e.getMessage());
         }
     }
 }
